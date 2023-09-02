@@ -45,3 +45,20 @@
 		</div>
 	</div>
 </div>
+
+<style>
+.c3{
+	position: absolute;
+    border-radius:0;
+    background: #12546b;
+    transform: rotate(38deg);
+    overflow: hidden;
+} 
+.c4{
+	position: absolute;
+    border-radius: 0;
+    background: #12546b;
+    transform: rotate(38deg);
+    overflow: hidden;
+}
+</style>
