@@ -1,0 +1,23 @@
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 89px solid transparent;
+    border-right: 69px solid transparent;
+    border-bottom: 133px solid #fe5f55;
+    position: absolute;
+    bottom: -1px;
+    right: -6px;
+    border-bottom-left-radius: 55px;
+    border-bottom-right-radius: 128px;
+}
+.triangle-up2 {
+    width: 0;
+    height: 0;
+    border-left: 27px solid transparent;
+    border-right: 47px solid transparent;
+    border-bottom: 59px solid #fe5f55;
+    position: absolute;
+    bottom: 3px;
+    left: 23px;
+    border-bottom-left-radius: 108px;
+}

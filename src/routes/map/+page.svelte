@@ -1,55 +1,13 @@
-<!-- src/App.svelte -->
-<!-- <script>
-  import { onMount } from "svelte";
-  import { countryDataStore } from "./store";
-  import Table from "./components/Table.svelte";
-  import PolarAreaChart from "./components/PolarAreaChart.svelte";
-
-  let countries = [];
-
-  onMount(async () => {
-    const response = await fetch("https://restcountries.com/v3.1/all");
-    const data = await response.json();
-    countryDataStore.set(data);
-  });
-
-  $: {
-    countries = $countryDataStore;
-  }
+<script>
+	import MapDev from "../../components/map.svelte"
 </script>
 
-<main>
-  <h1>Country Data</h1>
-  <Table {countries} />
-  <PolarAreaChart {countries} />
-</main>
+<svelte:head>
+	<title>Map page</title>
+	<meta name="description" content="Map page content" />
+</svelte:head>
 
-<style>
-  main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-
-  th,
-  td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-  }
-
-  th {
-    background-color: #f2f2f2;
-  }
-
-  canvas {
-    max-width: 400px;
-  }
-</style> -->
+<div>
+<h1 class="mb-4 text-3xl text-[#980000]">Map Page:</h1>
+	<MapDev />
+</div>
